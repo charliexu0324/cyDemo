@@ -46,4 +46,5 @@ describe("walk through the cart page", function() {
       cartSummaryCode(couponData1.text, couponData1.expected);
     });
   });
+
 });

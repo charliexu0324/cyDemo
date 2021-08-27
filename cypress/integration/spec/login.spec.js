@@ -1,12 +1,12 @@
 import { gotoPage, baseRoutes } from "../../support/selectors/navigation";
 import { login } from "../../support/selectors/loginPage";
 
-describe("walk through the cart page", function() {
+describe("walk through the login page", function() {
   before(function() {
     gotoPage(baseRoutes.login);
   });
 
-  it("click mini cart then go the cart page", () => {
+  it("happy path of login page", () => {
     login();
   });
 });

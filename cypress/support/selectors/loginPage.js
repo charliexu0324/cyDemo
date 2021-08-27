@@ -28,8 +28,7 @@ export function login() {
 
 export function loginWithoutUI() {
   // speedup the login process
-  Cypress.env("baseUrl", env.m10Url);
-
+  
   cy.request("/login")
     .its("body")
     .then(body => {

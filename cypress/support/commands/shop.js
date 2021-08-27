@@ -6,9 +6,9 @@ export function addItems2cart(token) {
     failOnStatusCode: false,
     body: {
       qty: 1,
-      productCodePost: 303037,
-      homeDeliveryMode: "",
-      clickToCollectMode: true,
+      productCodePost: 337644,
+      homeDeliveryMode: true,
+      clickToCollectMode: "",
       storeId: "X7",
       giftCardAmount: "",
       storeName: "",
