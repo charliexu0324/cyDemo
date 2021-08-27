@@ -1,0 +1,23 @@
+{
+  "quantityData": [
+    { "text": "J", "expected": "has been updated" },
+    { "text": "helloworld", "expected": "has been updated" },
+    { "text": "0.1", "expected": "has been updated" },
+    { "text": "999", "expected": "has been updated" },
+    { "text": "99999999999", "expected": "has been updated" },
+    { "text": "3", "expected": "has been updated" }
+  ],
+  "couponData": [
+    { "text": "", "expected": "Enter the promo code.", "note": "" },
+    {
+      "text": "abc",
+      "expected": "The promo code entered is not recognised.",
+      "note": ""
+    },
+    {
+      "text": "validatecode",
+      "expected": "The promo code entered is not recognised.",
+      "note": "todo:update it when get the real validateCode"
+    }
+  ]
+}

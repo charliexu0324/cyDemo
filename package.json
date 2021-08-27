@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "cypress": "^8.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "eslint": "^7.32.0",
+    "faker": "^5.5.3"
+  }
+}
