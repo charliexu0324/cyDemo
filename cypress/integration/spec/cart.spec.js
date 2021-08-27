@@ -15,11 +15,6 @@ describe("walk through the cart page", function() {
   const quantityData = testdata.quantityData;
   const couponData = testdata.couponData;
 
-  before(function() {
-
-    cye
-  });
-
   beforeEach(function() {
     loginWithoutUI();
     gotoPage(baseRoutes.cart);
