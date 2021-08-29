@@ -2,7 +2,7 @@
 
 The demo of UI automation testing framework
 
-The framework is based on Cypress+Mocha+Node.js. It’s foucs on the cart page (https://www#mitre10#co#nz/), as this page has a high priority.
+The framework is based on Cypress+Mocha+Node.js. It’s foucs on the cart page, as this page has a high priority.
 
 The main features of this demo framework are:
 
