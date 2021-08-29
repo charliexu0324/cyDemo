@@ -1,4 +1,4 @@
-export function addItems2cart(token) {
+Cypress.Commands.add("addItems2cart", token => {
   cy.request({
     method: "POST",
     url: "/cart/add",
@@ -15,12 +15,12 @@ export function addItems2cart(token) {
       CSRFToken: token
     }
   });
-}
+});
 
-export function getSubtotal() {
+Cypress.Commands.add("getSubtotal", () => {
   cy.request({
     method: "GET",
     url: "/cart/miniCart/SUBTOTAL",
     form: true
   });
-}
+});

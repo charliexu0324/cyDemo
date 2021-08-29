@@ -1,6 +1,5 @@
 import { gotoPage, baseRoutes } from "../../support/selectors/navigation";
 import { loginWithoutUI, csrfToken } from "../../support/selectors/loginPage";
-import { addItems2cart, getSubtotal } from "../../support/commands/shop";
 import {
   toMiniCart,
   buyingOptionDelivery,
@@ -20,9 +19,9 @@ describe("walk through the cart page", function() {
     gotoPage(baseRoutes.cart);
   });
 
-  it("click mini cart then go the cart page", () => {
-    getSubtotal();
-    addItems2cart(csrfToken);
+  it.only("click mini cart then go the cart page", () => {
+    cy.getSubtotal();
+    cy.addItems2cart(csrfToken);
     gotoPage(baseRoutes.updateProfile);
     toMiniCart();
   });
