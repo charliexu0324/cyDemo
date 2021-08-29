@@ -1,0 +1,10 @@
+{
+  "baseUrl": "https://www.mitre10.co.nz",
+  "viewportWidth": 1280,
+  "viewportHeight": 1024,
+  "pageLoadTimeout": 240000,
+  "defaultCommandTimeout":18000,
+  "retries": 1,
+  "videoCompression": false,
+  "chromeWebSecurity": false
+}
