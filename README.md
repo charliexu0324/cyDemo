@@ -8,7 +8,7 @@ The main features of this demo framework are:
 
 1.Page-object pattern based. The benefits are easy to maintain and refactor the page object and the test.
 
-2.Stable,Fast and easy to maintain. By the nature of Cypress, the running process is quite stable and pretty fast than Selenium. The code is more simpler than the code when using selenium.
+2.Stable,Fast and easy to maintain. By the nature of Cypress, the running process is quite stable and pretty fast than Selenium. The code is more simpler than selenium webdriver.
 
 3.Data-driven. Store test data into json files to improve the maintainability and to reduce duplicated code.
 
